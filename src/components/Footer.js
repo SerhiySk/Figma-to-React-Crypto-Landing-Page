@@ -193,7 +193,7 @@ const IconTwitter = styled.img`
   width: 13.42px;
   height: 10.9px;
 `;
-const SocialLink2 = styled.div`
+const SocialLink2 = styled.a`
   border-radius: var(--br-3xs);
   background-color: var(--color-indianred);
   border: 1px solid var(--color-indianred);
@@ -201,24 +201,22 @@ const SocialLink2 = styled.div`
   width: 32px;
   height: 32px;
   display: flex;
-  flex-direction: column;
+  cursor: pointer;
   padding: var(--padding-3xs) var(--padding-4xs);
-  align-items: flex-start;
-  justify-content: flex-start;
 `;
 const IconLinkedin = styled.img`
   position: relative;
   width: 11.07px;
   height: 12px;
 `;
-const SocialLink = styled.div`
+const SocialLink = styled.a`
   border-radius: var(--br-3xs);
   border: 1px solid var(--text-paragraph);
   box-sizing: border-box;
+  cursor: pointer;
   width: 32px;
   height: 32px;
   display: flex;
-  flex-direction: row;
   padding: var(--padding-3xs) var(--padding-smi);
   align-items: center;
   justify-content: center;
@@ -227,11 +225,4 @@ const IconInstagram = styled.img`
   position: relative;
   width: 13.51px;
   height: 14px;
-`;
-const SocialIcons = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-mid);
 `;

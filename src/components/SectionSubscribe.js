@@ -64,7 +64,7 @@ const Wrapper = styled.section`
     max-width: 578px;
     width: 90%;
     position: relative;
-    z-index: 0;
+    z-index: 2;
   }
   .container-text {
     align-self: stretch;
@@ -93,6 +93,7 @@ const Wrapper = styled.section`
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
+    color: var(--white);
     padding: var(--padding-9xl) var(--padding-2xl);
     align-items: flex-start;
     justify-content: flex-start;
