@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+p {
+  margin: 0;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-family: var(--font-poppins);
+  line-height: 1;
+  text-transform: capitalize;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --paragraph: Inter;
+  --font-open-sans: 'Open Sans';
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-2xs: 11px;
+  --font-size-sm: 14px;
+  --font-size-smi: 13px;
+  --font-size-xs: 12px;
+  --font-size-13xl: 32px;
+  --paragraph-size: 17px;
+  --font-size-base: 16px;
+  --font-size-8xs: 5px;
+  --font-size-41xl: 60px;
+  --font-size-21xl: 40px;
+  --font-size-16xl: 35px;
+  --font-size-mini: 15px;
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+  --font-size-2xl: 21px;
+  --font-size-31xl: 50px;
+
+  /* Colors */
+  --gray-4: #bdbdbd;
+  --gray-3: #828282;
+  --white: #fff;
+  --black: #000;
+
+  --color-green: #1aff7c;
+  --color-red: #eb5757;
+  --color-midnightblue: #1b004e;
+  --text-paragraph: #616161;
+  --color-indianred: #eb5757;
+  --color-silver-100: #c4c4c4;
+  --gray-4: #bdbdbd;
+
+  --ffffff: #fff;
+  --color-lavenderblush: #fff6fb;
+  --color-springgreen: #1aff7c;
+  --gray-6: #f2f2f2;
+  --color-steelblue: #118fd7;
+  --color-aliceblue: #e4f1f2;
+
+  /* Gaps */
+  --gap-41xl: 60px;
+  --gap-21xl: 40px;
+  --gap-26xl: 45px;
+  --gap-xl: 20px;
+  --gap-lg: 18px;
+  --gap-6xs: 7px;
+  --gap-7xs: 6px;
+  --gap-3xs: 10px;
+  --gap-8xs: 5px;
+  --gap-3xl: 22px;
+  --gap-127xl: 146px;
+  --gap-4xl: 23px;
+  --gap-14xl: 33px;
+  --gap-mini: 15px;
+  --gap-2xs: 11px;
+  --gap-12xs: 1px;
+  --gap-29xl: 48px;
+  --gap-7xl: 26px;
+  --gap-mid: 17px;
+  --gap-13xl: 32px;
+  --gap-xl: 20px;
+  --gap-3xs: 10px;
+  --gap-31xl: 50px;
+  --gap-11xl: 30px;
+  --gap-sm: 14px;
+  --gap-41xl: 60px;
+  --gap-10xl: 29px;
+  --gap-12xl: 31px;
+  --gap-8xs: 5px;
+  --gap-201xl: 220px;
+  --gap-121xl: 140px;
+  --gap-26xl: 45px;
+  --gap-14xl: 33px;
+  --gap-21xl: 40px;
+  --gap-lg: 18px;
+  --gap-6xs: 7px;
+  --gap-7xs: 6px;
+  --gap-3xl: 22px;
+  --gap-127xl: 146px;
+  --gap-4xl: 23px;
+  --gap-mini: 15px;
+  --gap-2xs: 11px;
+  --gap-12xs: 1px;
+  --gap-10xs: 3px;
+
+  /* Paddings */
+  --padding-115xl: 134px;
+  --padding-63xl: 82px;
+  --padding-32xl: 51px;
+  --padding-10xl: 29px;
+  --padding-22xl: 41px;
+  --padding-3xs: 10px;
+  --padding-smi: 13px;
+  --padding-4xs: 9px;
+  --padding-73xl: 92px;
+  --padding-91xl: 110px;
+  --padding-31xl: 50px;
+  --padding-36xl: 55px;
+  --padding-lgi: 19px;
+  --padding-8xl: 27px;
+  --padding-15xl: 34px;
+  --padding-9xl: 28px;
+  --padding-2xl: 21px;
+  --padding-mid: 17px;
+  --padding-81xl: 100px;
+  --padding-5xl: 24px;
+  --padding-83xl: 102px;
+  --padding-103xl: 122px;
+  --padding-76xl: 95px;
+  --padding-lg: 18px;
+  --padding-14xl: 33px;
+  --padding-16xl: 35px;
+  --padding-mini: 15px;
+  --padding-11xl: 30px;
+  --padding-6xs: 7px;
+  --padding-sm: 14px;
+  --padding-6xl: 25px;
+  --padding-xs: 12px;
+  --padding-xl: 20px;
+  --padding-7xs: 6px;
+
+  /* border radiuses */
+  --br-31xl: 50px;
+  --max-width: 1170px;
+  --br-3xs: 10px;
+  --br-12xl: 31px;
+  --br-18xl: 37px;
+  --br-10xs: 3px;
+
+  --drop-shadow-3: 0px 50px 80px rgba(53, 42, 67, 0.1);
+  /* Sizes */
+}
+
+.section-title {
+  font-family: var(--font-poppins);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+h3 {
+  font-size: 32px;
+}
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 25px;
+  }
+  @media screen and (max-width: 420px) {
+    h3 {
+      font-size: 20px;
+    }
+  }
+}
+
+.section-center {
+  max-width: var(--max-width);
+  width: 95%;
+  margin: 0 auto;
+}
+.section-title {
+  margin: 0 auto;
+  width: fit-content;
+}
