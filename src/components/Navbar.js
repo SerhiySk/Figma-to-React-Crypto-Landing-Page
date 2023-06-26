@@ -93,7 +93,6 @@ const Wrapper = styled.nav`
   font-size: var(--font-size-5xl);
   color: var(--ffffff);
   font-family: var(--font-poppins);
-  /* Edited */
 
   .btn-menu {
     display: block;
@@ -101,15 +100,13 @@ const Wrapper = styled.nav`
   .btn-nav {
     display: none;
   }
-  /* Edited End */
   .nav-center {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: end;
     padding: var(--padding-16xl) 0;
-    /* padding-bottom: var(--padding-16xl); */
-    /* justify-content: space-between; */
+
     max-width: 1191px;
     margin: 0 auto;
     width: 100%;
@@ -142,21 +139,13 @@ const Wrapper = styled.nav`
 
     overflow: hidden;
     transition: var(--transition);
-    /* width: fit-content; */
     background: #fffffff1;
   }
   .show-links {
     height: fit-content;
     padding: 2rem 0;
   }
-  /* .nav-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-xl);
-    font-size: var(--paragraph-size);
-  } */
+
   .btn-menu {
     cursor: pointer;
     border: none;
@@ -182,43 +171,6 @@ const Wrapper = styled.nav`
     border-radius: var(--br-31xl);
   }
 
-  /* @media screen and (max-width: 1200px) {
-    .nav-center {
-      width: 95%;
-    }
-    .nav-links {
-      font-size: var(--font-size-mini);
-      
-    }
-  }
-  @media screen and (max-width: 950px) {
-    .nav-links {
-      gap: var(--gap-2xs);
-    }
-    .btn-nav {
-      padding: var(--padding-xs) var(--padding-xl);
-      box-sizing: border-box;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    padding-top: var(--padding-16xl);
-    padding-bottom: var(--padding-16xl);
-    box-sizing: border-box;
-    .nav-links {
-      display: none;
-    }
-    .show-links {
-      display: block;
-      display: flex;
-      flex-direction: column;
-    }
-    .btn-menu {
-      display: flex;
-    }
-    .btn-nav {
-      display: none;
-    }
-  } */
   @media screen and (min-width: 768px) {
     .nav-center {
       padding: var(--padding-6xl) 0px;
