@@ -61,7 +61,6 @@ const Wrapper = styled.section`
   }
   .hero-title {
     margin: 0;
-    position: relative;
     font-size: var(--font-size-41xl);
     font-weight: 700;
     font-family: var(--font-poppins);

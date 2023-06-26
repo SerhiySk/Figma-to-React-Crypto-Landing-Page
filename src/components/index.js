@@ -6,6 +6,8 @@ import SectionDownloadsApp from './SectionDownloadsApp';
 import SectionLearnMore from './SectionLearnMore';
 import Footer from './Footer';
 import SectionSubscribe from './SectionSubscribe';
+import FormContactUs from './FormContactUs';
+
 export {
   Navbar,
   Hero,
@@ -15,4 +17,5 @@ export {
   SectionLearnMore,
   Footer,
   SectionSubscribe,
+  FormContactUs
 };

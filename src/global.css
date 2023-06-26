@@ -37,6 +37,8 @@ body {
   --font-open-sans: 'Open Sans';
   --font-poppins: Poppins;
 
+  --transition: 0.3s ease-in-out all;
+
   /* font sizes */
   --font-size-2xs: 11px;
   --font-size-sm: 14px;
@@ -65,12 +67,15 @@ body {
 
   --color-green: #1aff7c;
   --color-red: #eb5757;
+  --color-red-dark: #823131;
   --color-midnightblue: #1b004e;
+  --color-main-light: #8a4cfd;
+  --color-main-very-light: #dac8fc;
   --text-paragraph: #616161;
   --color-indianred: #eb5757;
+  --color-indianred-light: #ffe5e5;
   --color-silver-100: #c4c4c4;
   --gray-4: #bdbdbd;
-
   --ffffff: #fff;
   --color-lavenderblush: #fff6fb;
   --color-springgreen: #1aff7c;
